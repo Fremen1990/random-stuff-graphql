@@ -18,7 +18,12 @@ const data = {
   favouriteNumber: 69,
 };
 
-const server = new ApolloServer({ typeDefs, rootValue: data });
+const server = new ApolloServer({
+  typeDefs,
+  rootValue: data,
+  playground: true,
+  introspection: true,
+});
 
 server
   .listen({ port: PORT })
