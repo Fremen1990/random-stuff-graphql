@@ -21,8 +21,8 @@ const data = {
 const server = new ApolloServer({
   typeDefs,
   rootValue: data,
-  playground: true,
   introspection: true,
+  playground: true,
 });
 
 server
