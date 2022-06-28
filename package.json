@@ -4,12 +4,16 @@
   "description": "Simple GraphQL Server with random stuff :)",
   "main": "index.js",
   "scripts": {
-   "start": "node index.js",
-   "dev": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Tomasz Stanisz",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "graphql": "^16.5.0"
   }
 }
